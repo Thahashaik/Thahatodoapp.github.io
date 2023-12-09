@@ -1,0 +1,56 @@
+/* src/styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #282c34; /* Change background color to a dark shade */
+  color: #fff; /* Set text color to white */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background-color: #444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: #61dafb; /* Set h1 color to a blue shade */
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333; /* Set input text color */
+}
+
+button.add-btn,
+button.remove-btn {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Additional Styling */
+body {
+  background-color: #282c34; /* Set body background color to the same dark shade */
+}
+
+.custom-text {
+  text-align: center;
+  color: #ccc;
+  font-size: 14px;
+}
+
